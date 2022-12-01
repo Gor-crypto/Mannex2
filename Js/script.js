@@ -2,14 +2,14 @@ let img = document.querySelector(".slide-img");
 let nextSlide = document.querySelector(".nextslide");
 let prevSlide = document.querySelector(".prevslide");
 let arr = [
-  "../img/Товар.png",
-  "../img/Product-2.png",
-  "../img/Product-5.png",
-  "../img/Товар.png",
-  "../img/Product-2.png",
-  "../img/Product-5.png",
-  "../img/Товар.png",
-  "../img/Product-2.png",
+  "./img/Товар.png",
+  "./img/Product-2.png",
+  "./img/Product-5.png",
+  "./img/Товар.png",
+  "./img/Product-2.png",
+  "./img/Product-5.png",
+  "./img/Товар.png",
+  "./img/Product-2.png",
 ];
 let i = 0;
 let count = document.querySelector(".count-of-slider");
@@ -125,7 +125,7 @@ function drawElement(parent, response) {
      <p class="count-price">${item.price}p.</p>
      <span class="mention">
        <span class="minus">-</span><span>1</span><span class="plus">+</span></span>
-     <button class="add-btn-ka"><img src="../img/kaylaska.png" alt=""/></button></div>`;
+     <button class="add-btn-ka"><img src="./img/kaylaska.png" alt=""/></button></div>`;
     parent.append(div);
   });
 }
